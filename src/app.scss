@@ -47,3 +47,9 @@ section{
         @content;
     }
 }
+
+.mmobile{
+    @include mobile {
+        display: none !important;
+      }
+}

@@ -56,12 +56,12 @@ function Hero() {
             Web developer and UI designer
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
-            <motion.button variants={textVariants}>
-              See the latest Works
+            <motion.button variants={textVariants} >
+              <a href="https://drive.google.com/file/d/1sOARk2uYmjcKVrOo6XJGRUZI0GzbaTBP/view?usp=drivesdk" target="_blank">Download Resume</a>
             </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} ><a href="mailto:dhruv0225@gmaail.com">Contact Me</a></motion.button>
           </motion.div>
-          <motion.img variants={textVariants} src="/scroll.png" alt="" animate="scrollButton"/>
+          <motion.img className="mmobile" variants={textVariants} src="/scroll.png" alt="" animate="scrollButton"/>
         </motion.div>
       </div>
 

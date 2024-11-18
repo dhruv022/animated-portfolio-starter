@@ -20,7 +20,7 @@
       gap: 40px;
 
       @include mobile {
-        height: 50%;
+        height: 40%;
         width: 100%;
         gap: 20px;
         align-items: center;
@@ -65,10 +65,10 @@
     top: 0;
     right: 0;
     @include mobile {
-        height: 50%;
+        height: 53%;
         width: 100%;
         top: unset;
-        bottom: 0;
+        bottom: 50px;
     }
     img {
       height: 450px;
@@ -76,6 +76,7 @@
       border-radius: 50%;
       @include mobile {
         margin: 0px;
+        margin-bottom: 20px;
         height: 100%;
         width: 100%;
         padding: 30px;

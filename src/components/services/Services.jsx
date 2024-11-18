@@ -144,7 +144,7 @@ const Services = () => {
             <button>Go</button>
           </motion.div>
           <motion.div
-            className="box"
+            className="box mmobile"
             whileHover={{ background: "lightgray", color: "black" }}
           >
             <h2>Branding</h2>

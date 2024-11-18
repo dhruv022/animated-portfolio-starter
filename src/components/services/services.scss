@@ -125,6 +125,7 @@
     align-items: center;
     gap: 20px;
     @include mobile {
+      margin-top: 20%;
       align-self: center;
       text-align: center;
       flex-direction: column;
@@ -207,6 +208,8 @@
     gap: 20px;
 
     @include mobile {
+
+      margin-top: 8%;
         flex-direction: column;
     }
 

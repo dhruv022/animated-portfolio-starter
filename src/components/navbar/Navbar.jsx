@@ -16,18 +16,22 @@ function Navbar() {
           Dhruv Sharma
         </motion.span>
         <div className="social">
-          <a href="#">
-            <img src="/facebook.png" alt="" />
+          <a href="https://www.linkedin.com/in/dhruv0225/" target="_blank">
+            <img src="/linkedin.png" alt="" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/dhruv_xhrma" target="_blank">
             <img src="/instagram.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/youtube.png" alt="" />
+          <a href="https://github.com/dhruv022" target="_blank">
+            <img src="/github.png" alt="" />
           </a>
-          <a href="#">
-            <img src="/dribble.png" alt="" />
-          </a>
+          <div>
+
+            
+          </div>
+          {/* <a href="#">
+            <img src="" alt="" />
+          </a> */}
         </div>
       </div>
     </div>
