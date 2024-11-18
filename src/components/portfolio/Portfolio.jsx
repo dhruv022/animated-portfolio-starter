@@ -7,7 +7,7 @@ const items = [
     id: 1,
     title: "React Commerce",
     img: "./ecom.jpg",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, iusto. Doloribus dolor eligendi recusandae quasi velit, maxime, dolores nostrum ex quam consequatur quaerat nisi exercitationem, repudiandae blanditiis ad non itaque.",
+    desc: "The React E-Commerce App is a modern, responsive platform designed to offer a seamless shopping experience. Built with React, dynamic product management, and secure integration with payment gateways and user authentication.",
   },
   {
     id: 2,

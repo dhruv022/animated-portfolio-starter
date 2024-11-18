@@ -134,12 +134,9 @@ const Services = () => {
             className="box"
             whileHover={{ background: "lightgray", color: "black" }}
           >
-            <h2>Branding</h2>
+            <h2>Development</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod
-              aliquam adipisci minima itaque, porro voluptatem officiis natus
-              quasi consectetur, quibusdam animi ratione ad autem illo accusamus
-              facilis. Animi, quidem pariatur!
+            We specialize in developing creatively designed, full-stack websites that not only look stunning but also perform seamlessly. Our expertise spans frontend innovation and robust backend solutions, ensuring every project is tailored to meet your unique needs.
             </p>
             <button>Go</button>
           </motion.div>
