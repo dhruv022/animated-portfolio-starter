@@ -99,3 +99,16 @@
     }
   }
 }
+
+.onlyphone {
+  display: none;
+  @include mobile {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    font-size: 30px;
+    width: 100%;
+    position: absolute;
+  }
+}

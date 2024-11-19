@@ -57,7 +57,7 @@ function Hero() {
           </motion.h1>
           <motion.div className="buttons" variants={textVariants}>
             <motion.button variants={textVariants} >
-              <a href="https://drive.google.com/file/d/1sOARk2uYmjcKVrOo6XJGRUZI0GzbaTBP/view?usp=drivesdk" target="_blank">Download Resume</a>
+              <a href="#Portfolio">My Projects</a>
             </motion.button>
             <motion.button variants={textVariants} ><a href="mailto:dhruv0225@gmaail.com">Contact Me</a></motion.button>
           </motion.div>

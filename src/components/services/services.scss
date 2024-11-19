@@ -83,12 +83,13 @@
       gap: 20px;
   
       .box {
-        padding: 30px;
+        padding: 10px 30px;
         border: 0.5px solid gray;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-around;
         border-radius: 20px;
+        height: 80%;
   
         p {
           font-size: 12px;

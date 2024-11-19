@@ -28,11 +28,14 @@ const itemVariants ={
 }
 
 const Links = () => {
-  const items =["Homepage","Services","Portfolio","Contact","About"];
+  const items =["Homepage","Services","Portfolio","Contact"];
+  const getHref = (item) => {
+    return item === "Homepage" ? "#" : `#${item}`;
+  };
   return (
     <motion.div className='links'>
       {items.map(item => 
-        <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
+        <motion.a  href={getHref(item)} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
           {item}
         </motion.a>
       )}
