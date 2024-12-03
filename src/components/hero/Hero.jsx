@@ -55,7 +55,7 @@ function Hero() {
           <motion.h1 variants={textVariants}>
             Web developer and UI designer
           </motion.h1>
-          <motion.div className="buttons" variants={textVariants}>
+          <motion.div className="buttons zindex" variants={textVariants}>
             <motion.button variants={textVariants} >
               <a href="#Portfolio">My Projects</a>
             </motion.button>
