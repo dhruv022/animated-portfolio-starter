@@ -33,8 +33,8 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_l7usuic', 'template_fznvenk', formRef.current, {
-        publicKey: 'kTDSaEuuPdnK72X4n',
+      .sendForm('service_dz4a8zm', 'template_g1yuu9s', formRef.current, {
+        publicKey: 'XnotRJFmojCxVe0Lo',
       })
       .then(
         () => {
