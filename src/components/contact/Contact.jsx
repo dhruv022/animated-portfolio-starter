@@ -34,7 +34,7 @@ const Contact = () => {
 
     emailjs
       .sendForm('service_l7usuic', 'template_fznvenk', formRef.current, {
-        publicKey: 'kTDSaEuuPdnK72X4n',
+        publicKey: 'HZZ8lIS3EQYbS-cRY',
       })
       .then(
         () => {
