@@ -21,10 +21,10 @@ const variants = {
 const Contact = () => {
   const ref = useRef();
 
-  const formRef  = useRef();
+  const formRef = useRef();
 
-  const [error,setError] = useState(false);
-  const [success,setSuccess] = useState(false);
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
 
 
   const isInView = useInView(ref, { margin: "-100px" });
@@ -72,22 +72,21 @@ const Contact = () => {
           <span>+91 765 1070 617</span>
         </motion.div>
       </motion.div>
-      <div className="formContainer">
       <motion.div
-          className="onlyphone"
-          initial={{ opacity: 1 }}
-          whileInView={{ opacity: 0 }}
-          transition={{ delay: 3, duration: 1 }}
-        > 
+        className="onlyphone thanks"
+        initial={{ opacity: 1 }}
+        whileInView={{ opacity: 0 }}
+        transition={{ delay: 3, duration: 1 }}
+      >
         <h1>Thank You...</h1>
-        </motion.div>
-
+      </motion.div>
+      <div className="formContainer">
         <motion.div
           className="phoneSvg"
           initial={{ opacity: 1 }}
           whileInView={{ opacity: 0 }}
           transition={{ delay: 3, duration: 1 }}
-        > 
+        >
           {/* <svg
             fill="#000000"
             viewBox="0 0 24 24"
@@ -141,14 +140,14 @@ const Contact = () => {
 
         <motion.form
           onSubmit={sendEmail}
-          ref= {formRef}
+          ref={formRef}
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 4, duration: 1 }}
         >
-          <input type="text" placeholder="Name" name="from_name" required/>
-          <input type="email" placeholder="Email" name="from_email" required/>
-          <textarea rows={8} placeholder="Message" name="message" required/>
+          <input type="text" placeholder="Name" name="from_name" required />
+          <input type="email" placeholder="Email" name="from_email" required />
+          <textarea rows={8} placeholder="Message" name="message" required />
           <button>Submit</button>
           {error && "Error"}
           {success && "Success"}
